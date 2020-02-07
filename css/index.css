@@ -149,6 +149,11 @@ h2 {
   padding-bottom: 10px;
   font-weight: bold;
 }
+h3 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
 h4 {
   font-size: 2rem;
   padding-bottom: 10px;
@@ -189,13 +194,16 @@ header nav .links {
   align-items: baseline;
   padding: 1%;
 }
+header nav .links h1 {
+  color: #212529;
+}
 header nav .links button {
   padding: 4px;
 }
 header nav .links a {
   font-size: 2rem;
   text-decoration: none;
-  color: #212529;
+  color: #C0C0C0;
   margin: 10px;
 }
 @media (max-width: 500px) {
@@ -252,53 +260,16 @@ footer a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 67vh;
-  background-image: url(../img/cheapest-online.jpg);
 }
 .container .top-section h2 {
   text-align: center;
-  color: red;
+  color: #17A2B8;
   font-size: 4rem;
 }
 @media (max-width: 500px) {
   .container .top-section h2 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
-}
-.container .top-section button {
-  border: solid 1px;
-  border-radius: 10px;
-  padding: 1%;
-  font-size: 2rem;
-  text-align: center;
-  width: 300px;
-  align-self: center;
-  background-color: lightcoral;
-  color: white;
-}
-.container .top-section button:hover {
-  background-color: #FFEBCD;
-  color: #212529;
-}
-@media (max-width: 500px) {
-  .container .top-section button {
-    width: 200px;
-  }
-}
-.container .top-section button a {
-  text-decoration: none;
-  color: whitesmoke;
-}
-.container .top-section button a:hover {
-  color: #212529;
-}
-.container .mid {
-  padding: 2%;
-  align-self: center;
-}
-.container .mid h2,
-.container .mid p {
-  text-align: center;
 }
 .container .mid-section {
   display: flex;
@@ -310,41 +281,14 @@ footer a {
     flex-direction: column;
   }
 }
-.container .mid-section .fashion {
-  width: 30%;
-}
-@media (max-width: 500px) {
-  .container .mid-section .fashion {
-    width: 100%;
-    padding: 3%;
-  }
-}
-.container .mid-section button,
-.container .mid-section p {
-  padding: 1%;
-}
-.container .top-text h2 {
-  text-align: center;
+.container .mid-section .text {
+  width: 50%;
   padding: 2%;
 }
 @media (max-width: 500px) {
-  .container .top-text h2 {
-    font-size: 2rem;
-  }
-}
-.container .text {
-  display: flex;
-  padding: 2%;
-}
-@media (max-width: 500px) {
-  .container .text {
-    flex-direction: column;
+  .container .mid-section .text {
     width: 100%;
-    padding: 1%;
   }
-}
-.container .text p {
-  padding: 1%;
 }
 .container .contain {
   padding: 2%;

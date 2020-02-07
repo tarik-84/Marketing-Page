@@ -4,8 +4,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 67vh;
-    background-image: url(../img/cheapest-online.jpg);
+    
+    
     
 
     
@@ -13,59 +13,18 @@
 
     h2 {
         text-align: center;
-        color: red;
+        color: @eastern-blue;
         font-size: 4rem;
-
+      
+  
         @media @mobile {
-            font-size: 2rem;
+            font-size: 3rem;
         }
-      
 
+    }           
+        
     }
 
-    button {
-        .button();
-        width: 300px;
-        align-self: center;
-        .para-btn(lightcoral, white);
-
-      
-
-        &:hover {
-            .para-btn(@sandy-beach, @shark)
-           }
-
-
-
-           @media @mobile {
-            width: 200px;
-            
-        }
-
-        a{
-            text-decoration: none;
-            color: whitesmoke;
-
-
-        &:hover {
-            color: @shark;
-        }
-
-            
-        }
-    }
-}
-
-
-.mid {
-    padding: 2%;
-   align-self: center;
-
-
-    h2, p {
-        text-align: center;
-    }
-}
 
 .mid-section {
     display: flex;
@@ -79,52 +38,18 @@
         
     }
 
-    .fashion{
-        width: 30%;
-
-
-        @media @mobile {
-            width: 100%;
-            padding: 3%;
-        } 
-
-
-    }
-
-    button, p {
-        padding: 1%;
-    }
-}
-
-.top-text {
-
-
-    h2 {
-        text-align: center;
-        padding: 2%;
-
-
-        @media @mobile {
-            font-size: 2rem;
-        }
-    }
-}
+    
 
 .text {
-    display: flex;
+    width: 50%;
     padding: 2%;
 
 
-
-
     @media @mobile {
-        flex-direction: column;
         width: 100%;
-        padding: 1%;
     }
 
-p {
-    padding: 1%;
+    
 }
     
 }
