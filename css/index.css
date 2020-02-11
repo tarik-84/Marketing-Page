@@ -200,11 +200,18 @@ header nav .links h1 {
 header nav .links button {
   padding: 4px;
 }
+header nav .links button a {
+  font-size: 1.5rem;
+  color: #212529;
+}
 header nav .links a {
   font-size: 2rem;
   text-decoration: none;
   color: #C0C0C0;
   margin: 10px;
+}
+header nav .links a:hover {
+  color: #17A2B8;
 }
 @media (max-width: 500px) {
   header nav .links a {
